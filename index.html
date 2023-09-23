@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--CSS-->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <link rel="stylesheet" href="./style.css">
+    <title>Hotel Rex</title>
+    <link rel="icon" type="image/x-icon" href="./img/favicon.ico">
+</head>
+<body>
+<!--HEADER-->
+    <header class="encabezado">
+        <!--NAVBAR-->
+        <a href="./index.html"><img src="./img/logoclean.png"></a>
+        <h1>Hotel Rex, confort y buenos precios, siempre!</h1>
+        <nav>
+        </nav>
+    </header>
+<!--SECCION PRINCIPAL-->
+    <main class="principal">
+<!--SECCION HERO-->
+        <section class="hero">
+            <h1>El mejor hospedaje desde 1967 </h1>
+            <h2>El Hotel Rex ofrece una armónica relación entre atención, confort y servicio. Con su impronta de estilo colonial español de ladrillos rojos se encuentra a un minuto a pie de la estación de metro.</h2>
+            <p></p>
+        </section>
+<!--SECCION NUESTRAS HABITACIONES-->
+                <div class="contenedor">
+                    <p>&nbsp</p>
+                    <label for="ingreso">Buscar Reserva por DNI</label>
+                    <input type="text" name="ingreso" id="bsqReserva" autofocus />
+                    <button id="btnSearch" class="btn btn-search">buscar</button>
+                    <p>&nbsp</p>
+                </div>
+
+                <div class="contenedor">
+                    <h3>Realizar Reserva</h3>
+                    <p>&nbsp</p>
+                    <p>&nbsp</p>
+                    <label for="dni">DNI</label>
+                    <input type="text" name="dni" id="dni" placeholder="123456789"autofocus /><p></p><p>&nbsp</p>
+                    <label for="fechai">Fecha de Ingreso</label>
+                    <input type="date" name="fechai" id="fechai" placeholder="MM/DD/AAAA" /><p></p><p>&nbsp</p>
+                    <label for="fechae">Fecha de Egreso</label>
+                    <input type="date" name="fechae" id="fechae" placeholder="MM/DD/AAAA" /><p></p><p>&nbsp</p>
+                    <select name="habitaciones" id="habitaciones">
+                        <option value="Default">Seleccione una habitación</option>
+                    </select>
+                    <button id="btnReservar" class="btn btn-reservar">Reservar</button>
+                    <p>&nbsp</p>
+                </div>
+                <div class="contenedor">
+                    <div id="imgHab">
+
+                    </div>
+                </div>
+<!--SECCION NUESTROS SERVICIOS-->
+    </main>
+<!--FOOTER-->
+    <footer class="pie">
+        <div>
+            <a href="https://www.facebook.com/" target="_blank"><img src="./img/facebook.png" alt="facebook"></a>
+            <a href="https://www.instagram.com/" target="_blank"><img src="./img/instagram.png" alt="instagram"></a>
+            <a href="https://twitter.com/" target="_blank"><img src="./img/gorjeo.png" alt="twitter"></a>
+        </div>
+        <div>
+          <p> !Gracias por visitarnos! No olvides seguirnos en nuestras redes sociales.</p>
+        </div>
+    </footer>
+  </div>
+  <!--JS-->
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  <script src="./main.js"></script>
+</body>
+    </html>

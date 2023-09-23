@@ -1,0 +1,123 @@
+/*---RESET---*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+/*---HEADER---*/
+header{
+    background-color: #c3cecf;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    height: 200px; ;
+}
+
+header nav ul {
+    display: flex;
+}
+
+header nav ul li{
+    margin: 20px;
+}
+
+header nav ul li a{
+    color: #1a1104;
+    font-size: 20px;
+    font-weight: 500;
+    font-style: bold;
+}
+
+/*---MAIN---*/
+
+div.contenedor{
+    width: 300px;
+    height: auto;
+    border: 1px black solid;
+    text-align: center;
+    margin: 15px;
+    display: inline-block;
+}
+
+img.foto{
+    width:300px;
+    height: 300px;
+}
+
+.hero{
+    background-image: url("./img/mainbackground.png") ;
+    width: 100%;
+    height: 400px;
+    background-size: cover;
+    color:rgb(9, 9, 9);
+    text-align: center;
+    background-attachment: fixed;
+}
+
+.hero h1{
+    font-weight: 700;
+    font-size: 70px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: bold;
+}
+
+.hero p{
+    font-size: 35px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.habitaciones div img{
+    width: 100%;
+    height: 400px;
+}
+
+.habitaciones div h3{
+    margin: 15px;
+}
+
+.habitaciones div a{
+    background-color: burlywood;
+    color: black;
+    padding: 5px;
+}
+
+.habitaciones div{
+    width: 300px;
+    height: 500px;
+    border: 1px black solid;
+    text-align: center;
+    margin: 15px;
+    display: inline-block;
+}
+
+/*---FOOTER---*/
+footer{
+    background-color: #c3cecf;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer div a img{
+    width: 100px;
+    height: 100px;
+    margin: 30px;
+}
+footer div button{
+    background-color: blueviolet;
+    font-size: 20px;
+    padding: 10px;
+    border: 10px;
+    margin-bottom:30px;
+}
